@@ -1,0 +1,192 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TableRow
+        android:id="@+id/inputRow"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/inputTextView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_span="4"
+            android:maxLength="22"
+            android:scrollbars="horizontal"
+            android:text="@string/input"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/firstButtonRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/numPad7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNum7"
+            android:text="@string/numPad7" />
+
+        <Button
+            android:id="@+id/numPad8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNum8"
+            android:text="@string/numPad8" />
+
+        <Button
+            android:id="@+id/numPad9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNum9"
+            android:text="@string/numPad9" />
+
+        <Button
+            android:id="@+id/numPadDiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNumDiv"
+            android:text="@string/numPadDiv" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/secondButtonRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/numPad4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNum4"
+            android:text="@string/numPad4" />
+
+        <Button
+            android:id="@+id/numPad5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNum5"
+            android:text="@string/numPad5" />
+
+        <Button
+            android:id="@+id/numPad6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNum6"
+            android:text="@string/numPad6" />
+
+        <Button
+            android:id="@+id/numPadMul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNumMul"
+            android:text="@string/numPadMul" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/thirdButtonRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/numPad1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNum1"
+            android:text="@string/numPad1" />
+
+        <Button
+            android:id="@+id/numPad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNum2"
+            android:text="@string/numPad2" />
+
+        <Button
+            android:id="@+id/numPad3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNum3"
+            android:text="@string/numPad3" />
+
+        <Button
+            android:id="@+id/numPadMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNumMin"
+            android:text="@string/numPadMin" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/fourthButtonRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/numPad0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNum0"
+            android:text="@string/numPad0" />
+
+        <Button
+            android:id="@+id/numPadDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNumDot"
+            android:text="@string/numPadDot" />
+
+        <Button
+            android:id="@+id/numPadEq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNumEq"
+            android:text="@string/numPadEq" />
+
+        <Button
+            android:id="@+id/numPadPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickedNumPlus"
+            android:text="@string/numPadPlus" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/fifthButtonRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/numPadDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:onClick="clickedNumDel"
+            android:text="@string/numPadDelete" />
+
+        <Button
+            android:id="@+id/numPadClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:onClick="clickedNumClear"
+            android:text="@string/numPadClear" />
+    </TableRow>
+
+</TableLayout>

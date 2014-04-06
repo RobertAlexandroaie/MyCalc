@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyCalc</string>
+    <string name="action_settings">Settings</string>
+    <string name="input">0</string>
+    <string name="numPad0">0</string>
+    <string name="numPad1">1</string>
+    <string name="numPad2">2</string>
+    <string name="numPad3">3</string>
+    <string name="numPad4">4</string>
+    <string name="numPad5">5</string>
+    <string name="numPad6">6</string>
+    <string name="numPad7">7</string>
+    <string name="numPad8">8</string>
+    <string name="numPad9">9</string>
+    <string name="numPadDot">.</string>
+    <string name="numPadPlus">+</string>
+    <string name="numPadMin">-</string>
+    <string name="numPadMul">*</string>
+    <string name="numPadDiv">/</string>
+    <string name="numPadEq">=</string>
+    <string name="numPadDelete">&lt;-</string>
+    <string name="numPadClear">C</string>
+
+</resources>
